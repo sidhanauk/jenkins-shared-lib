@@ -5,7 +5,7 @@ def call(String name = 'human') {
     // Scripted Pipeline
     def utils = new Utilities()
     
-    utils.mvn(" --version")
+    //utils.mvn(" --version")
     
     echo "Hello, ${name}."
 }
