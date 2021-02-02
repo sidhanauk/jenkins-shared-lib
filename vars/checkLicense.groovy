@@ -1,6 +1,6 @@
 // vars/checkLicense.groovy
 def call(String language = 'java') {
-  if (language == 'java') {
+  if (language.contains('java')) {
     pipeline {
       agent any
       stages {
