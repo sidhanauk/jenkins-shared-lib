@@ -1,3 +1,3 @@
-call(Map config=[:]){
-  println(config)
+def call(Map config=[:]){
+  println(config.message)
 }
