@@ -10,11 +10,13 @@ package org.sidhana
 class Utilities {
   
   def checkJava(){
-    sh "echo Java"
+    println("[INFO] Jenkins credentials set to: ")
+    //sh "echo Java"
   }
   
   
   def checkPython(){
-    sh " echo Python"
+    println("[INFO] Jenkins credentials set to:")
+    //sh " echo Python"
   }
 }
