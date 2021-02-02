@@ -1,21 +1,14 @@
 import org.sidhana.Utilities
 
 def call(String name = 'java') {
+    
+    def licence = new Utilities()
 
     if (name.contains('java')){
-        checkJava()
+        licence.checkJava()
     }
     
     if (name.contains('python')){
-        checkPython()
+        licence.checkPython()
     }
-}
-
-def checkJava(){
-    echo "Checking java"
-}
-
-
-def checkPython(){
-    echo "Checking python"
 }
