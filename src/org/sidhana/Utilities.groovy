@@ -10,11 +10,11 @@ package org.sidhana
 class Utilities {
   
   def checkJava(){
-    print "Java"
+    sh "echo Java"
   }
   
   
   def checkPython(){
-    print "Python"
+    sh " echo Python"
   }
 }
