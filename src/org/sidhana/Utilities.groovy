@@ -9,12 +9,12 @@ package org.sidhana
 
 class Utilities {
   
-  checkJava(){
+  def checkJava(){
     echo "Java"
   }
   
   
-  checkPython(){
+  def checkPython(){
     echo "Python"
   }
 }
