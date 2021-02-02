@@ -1,3 +1,3 @@
-call(Map config){
+call(Map config=[:]){
   println(config)
 }
