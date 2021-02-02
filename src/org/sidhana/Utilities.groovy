@@ -10,6 +10,8 @@ package org.sidhana
 class Utilities {
   
   def checkJava(){
+    sh("git log -1 --pretty=%B")
+    
     println("[INFO] Jenkins credentials set to: ")
     //sh "echo Java"
   }
