@@ -1,3 +1,9 @@
+def call(message) {
+    echo "Entry to log library"
+    echo "${message}"
+}
+
+
 def info(message) {
     echo "INFO: ${message}"
 }
